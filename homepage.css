@@ -1,9 +1,8 @@
 body {
-  background: #26d0c9;
   font-family: "Avenir Next";
+  background-color:F4F5F7;
 }
 
-.head {
-  color: #fff;
- height: 90px;
+.name {
+ margin: 10px auto;
 }
