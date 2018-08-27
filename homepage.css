@@ -3,6 +3,120 @@ body {
   background-color:F4F5F7;
 }
 
+header {
+	height: 100px;
+	width: 100%;
+	background: #f0f7ff;
+
+}
+
+header p {
+	line-height: 50px;
+	float: left;
+	font-size: 30px;
+	margin-left: 100px;
+}
+
+header nav {
+	float: left;
+	margin-left: 50px;
+}
+
+header li {
+	line-height: 100px;
+	float: left;
+	margin-left: 30px;
+	list-style: none;
+}
+
 .name {
   margin: 10px auto;
+}
+
+.profile {
+    padding: 0.5em 3em;
+    margin: 2em 0;
+    background: #f0f7ff;
+    border: dashed 2px #5b8bd0;/*点線*/
+}
+.profile p {
+    margin: 0;
+    padding: 0;
+}
+
+.keyword {
+    padding: 0.5em 3em;
+    margin: 2em 0;
+    background: #f0f7ff;
+    border: dashed 2px #5b8bd0;/*点線*/
+}
+.keyword p {
+    margin: 0;
+    padding: 0;
+}
+
+.reserch {
+    padding: 0.5em 3em;
+    margin: 2em 0;
+    background: #f0f7ff;
+    border: dashed 2px #5b8bd0;/*点線*/
+}
+.reserch p {
+    margin: 0;
+    padding: 0;
+}
+
+.active {
+    padding: 0.5em 3em;
+    margin: 2em 0;
+    background: #f0f7ff;
+    border: dashed 2px #5b8bd0;/*点線*/
+}
+.acticve p {
+    margin: 0;
+    padding: 0;
+}
+
+.skills {
+    padding: 0.5em 3em;
+    margin: 2em 0;
+    background: #f0f7ff;
+    border: dashed 2px #5b8bd0;/*点線*/
+}
+.skills p {
+    margin: 0;
+    padding: 0;
+}
+
+.environment {
+    padding: 0.5em 3em;
+    margin: 2em 0;
+    background: #f0f7ff;
+    border: dashed 2px #5b8bd0;/*点線*/
+}
+.environment p {
+    margin: 0;
+    padding: 0;
+}
+
+.links {
+    padding: 0.5em 3em;
+    margin: 2em 0;
+    background: #f0f7ff;
+    border: dashed 2px #5b8bd0;/*点線*/
+}
+.links p {
+    margin: 0;
+    padding: 0;
+}
+
+.design {
+    padding: 0.5em 3em;
+    margin: 2em 0;
+    background: #f0f7ff;
+    border: dashed 2px #5b8bd0;/*点線*/
+}
+.design p {
+    margin: 0;
+    padding: 0;
 }
