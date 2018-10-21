@@ -16,12 +16,6 @@ header p {
 	margin-left: 100px;
 }
 
-header nav {
-	float: left;
-	margin-left: 50px;
-  font-size: 20px;
-}
-
 header li {
 	line-height: 100px;
 	float: left;
@@ -30,11 +24,12 @@ header li {
 }
 
 .name {
-  margin: 10px auto;
+  padding: 0.5em 12em;
+  margin: 2em 0;
 }
 
 .profile {
-    padding: 0.5em 3em;
+    padding: 0.7em 3em;
     margin: 2em 0;
 
 }
@@ -44,7 +39,7 @@ header li {
 }
 
 .keyword {
-    padding: 0.5em 3em;
+    padding: 0.7em 3em;
     margin: 2em 0;
 
 }
@@ -54,7 +49,7 @@ header li {
 }
 
 .reserch {
-    padding: 0.5em 3em;
+    padding: 0.7em 3em;
     margin: 2em 0;
 
 }
@@ -64,7 +59,7 @@ header li {
 }
 
 .active {
-    padding: 0.5em 3em;
+    padding: 0.7em 3em;
     margin: 2em 0;
 
 }
@@ -74,7 +69,7 @@ header li {
 }
 
 .skills {
-    padding: 0.5em 3em;
+    padding: 0.7em 3em;
     margin: 2em 0;
 
 }
@@ -84,7 +79,7 @@ header li {
 }
 
 .environment {
-    padding: 0.5em 3em;
+    padding: 0.7em 3em;
     margin: 2em 0;
 
 }
@@ -94,7 +89,7 @@ header li {
 }
 
 .links {
-    padding: 0.5em 3em;
+    padding: 0.7em 3em;
     margin: 2em 0;
 
 }
@@ -104,7 +99,7 @@ header li {
 }
 
 .design {
-    padding: 0.5em 3em;
+    padding: 0.7em 3em;
     margin: 2em 0;
 
 }
