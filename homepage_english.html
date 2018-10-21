@@ -1,33 +1,36 @@
-<!doctype html>
-<html>
+<!DOCTYPE html>
+<html lang="ja">
 
   <head>
-
-    <meta charset = "UTF-8">
+    <meta charset = "UTF-8" name="viewport" content="width=device-width, initial-scale=1">
     <title>Kouhei Nakajima</title>
-    <link rel = "stylesheet" href = "homepage.css">
-
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="homepage.css">
   </head>
 
   <body>
     <header>
-      <div class = "name">
+      <div class = "container-fluid bg-info name">
         <p>Kouhei Nakajima@TMU</p>
-        <nav>
-          <ul>
-            <li><a href = "#profile"></a>Profile</li>
-            <li><a href = "#keyword">Researches</a></li>
-            <li><a href = "#reserch">Publication</a></li>
-            <li><a href = "#active">Active</a></li>
-            <li><a href = "#skills">Skills</a></li>
-            <li><a href = "index.html">Japanese</a></li>
-          </ul>
-        </nav>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+          <li>
+            <div class="dropdown">
+              <button class="btn btn-default dropdown-toggle" type="button" data-toggle="dropdown">
+              <span class="caret"></span>
+              日本語 (Japanese)
+              </button>
+              <ul class="dropdown-menu" role="menu">
+                <li role="presentation"><a href="homepage_english.html">English</a></li>
+                <li role="presentation"><a href="index.html">日本語</a></li>
+              </ul>
+            </div>
+          </li>
       </div>
-  </header>
+    </header>
 
-    <div class="profile">
-      <h2 id = profile>Profile</h2>
+    <div class="container-fluid bg-info profile">
+      <h2>Profile</h2>
         <ul>
           <li>Name: Kounei Nakajima</li>
           <li>Educational Background:
@@ -44,7 +47,7 @@
         </ul>
     </div>
 
-    <div class = "keyword">
+    <div class = "container-fluid bg-info keyword">
       <h2 id = "keyword">Researches</h2>
         <ul>
           <li>Machine lerning</li>
@@ -53,25 +56,24 @@
         </ul>
     </div>
 
-    <div class="reserch">
+    <div class="container-fluid bg-info reserch">
       <h2 id = "reserch">Publication</h2>
     </div>
 
-    <div class = "active">
+    <div class = "container-fluid bg-info active">
       <h2 id = "active">Active</h2>
     </div>
 
-    <div class = "skills">
+    <div class = "container-fluid bg-info skills">
       <h2 id = "skills">Skills</h2>
         <ul>
           <li>Python3</li>
           <li>C/C++</li>
-          <li>SQL</li>
-          <li>HTML/CSS</li>
+          <li>JavaScript</li>
         </ul>
     </div>
 
-    <div class = "environment">
+    <div class = "container-fluid bg-info environment">
       <h2>Development Platform</h2>
         <ul>
           <li>MacOS</li>
@@ -79,14 +81,14 @@
         </ul>
     </div>
 
-    <div class = "links">
+    <div class = "container-fluid bg-info links">
       <h2>Links</h2>
         <li><a href = "https://www.tmu.ac.jp/english/index.html">Tokyo Metroporitan University</a></li>
         <li><a href = "https://www.sd.tmu.ac.jp/english/index.html">Faculty of System Design Graduate school of Systems Designs</a></li>
         <li><a href = "http://krifiss3.sd.tmu.ac.jp/iskwHP/">Ishikawa Lab.</a></li>
     </div>
 
-    <div class = "logo">
+    <div class = "container-fluid bg-info logo">
       <h2>Logo</h2>
       <a href="https://github.com/knakajima3027"><img src = "pictures/GitHub-Mark-64px.png" alt="GitHub" border="0"></a>
     </div>

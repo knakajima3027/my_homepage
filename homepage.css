@@ -1,17 +1,16 @@
 body {
   font-family: "Avenir Next";
-  background-color:F4F5F7;
+  font-size: 18px;
 }
 
 header {
 	height: 100px;
 	width: 100%;
-	background: #f0f7ff;
 
 }
 
 header p {
-	line-height: 50px;
+	line-height: 90px;
 	float: left;
 	font-size: 30px;
 	margin-left: 100px;
@@ -20,6 +19,7 @@ header p {
 header nav {
 	float: left;
 	margin-left: 50px;
+  font-size: 20px;
 }
 
 header li {
@@ -36,8 +36,7 @@ header li {
 .profile {
     padding: 0.5em 3em;
     margin: 2em 0;
-    background: #f0f7ff;
-    border: dashed 2px #5b8bd0;/*点線*/
+
 }
 .profile p {
     margin: 0;
@@ -47,8 +46,7 @@ header li {
 .keyword {
     padding: 0.5em 3em;
     margin: 2em 0;
-    background: #f0f7ff;
-    border: dashed 2px #5b8bd0;/*点線*/
+
 }
 .keyword p {
     margin: 0;
@@ -58,8 +56,7 @@ header li {
 .reserch {
     padding: 0.5em 3em;
     margin: 2em 0;
-    background: #f0f7ff;
-    border: dashed 2px #5b8bd0;/*点線*/
+
 }
 .reserch p {
     margin: 0;
@@ -69,8 +66,7 @@ header li {
 .active {
     padding: 0.5em 3em;
     margin: 2em 0;
-    background: #f0f7ff;
-    border: dashed 2px #5b8bd0;/*点線*/
+
 }
 .acticve p {
     margin: 0;
@@ -80,8 +76,7 @@ header li {
 .skills {
     padding: 0.5em 3em;
     margin: 2em 0;
-    background: #f0f7ff;
-    border: dashed 2px #5b8bd0;/*点線*/
+
 }
 .skills p {
     margin: 0;
@@ -91,8 +86,7 @@ header li {
 .environment {
     padding: 0.5em 3em;
     margin: 2em 0;
-    background: #f0f7ff;
-    border: dashed 2px #5b8bd0;/*点線*/
+
 }
 .environment p {
     margin: 0;
@@ -102,8 +96,7 @@ header li {
 .links {
     padding: 0.5em 3em;
     margin: 2em 0;
-    background: #f0f7ff;
-    border: dashed 2px #5b8bd0;/*点線*/
+
 }
 .links p {
     margin: 0;
@@ -113,8 +106,7 @@ header li {
 .design {
     padding: 0.5em 3em;
     margin: 2em 0;
-    background: #f0f7ff;
-    border: dashed 2px #5b8bd0;/*点線*/
+
 }
 .design p {
     margin: 0;

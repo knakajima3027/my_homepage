@@ -1,29 +1,38 @@
-<!doctype html>
-<html>
+<!DOCTYPE html>
+<html lang="ja">
   <head>
     <meta charset = "UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>中島康平のホームページ</title>
-    <link rel = "stylesheet" href = "homepage.css">
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="homepage.css">
+    <!--[if lt IE 9]>
+  		<script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+  		<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+  	<![endif]-->
   </head>
-
   <body>
     <header>
-      <div class = "name">
+      <div class = "container-fluid bg-info name">
         <p>中島 康平@首都大学東京</p>
-        <nav>
-          <ul>
-            <li><a href = "#profile">プロフィール</a></li>
-            <li><a href = "#keyword">研究キーワード</a></li>
-            <li><a href = "#reserch">研究発表</a></li>
-            <li><a href = "#active">活動</a></li>
-            <li><a href = "#skills">スキル</a></li>
-            <li><a href = "homepage_english.html">English</a></li>
-          </ul>
-        </nav>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+          <li>
+            <div class="dropdown">
+              <button class="btn btn-default dropdown-toggle" type="button" data-toggle="dropdown">
+              <span class="caret"></span>
+              English
+              </button>
+              <ul class="dropdown-menu" role="menu">
+                <li role="presentation"><a href="homepage_english.html">English</a></li>
+                <li role="presentation"><a href="#">日本語</a></li>
+              </ul>
+            </div>
+          </li>
       </div>
-  </header>
+    </header>
 
-    <div class="profile" id = "profile">
+    <div class="container-fluid bg-info profile">
       <p>
         <h2>プロフィール</h2>
           <ul>
@@ -43,7 +52,7 @@
       </p>
     </div>
 
-    <div class = "keyword">
+    <div class = "container-fluid bg-info keyword">
       <h2 id = "keyword">研究キーワード</h2>
         <ul>
           <li>機械学習</li>
@@ -52,25 +61,24 @@
         </ul>
     </div>
 
-    <div class = "reserch">
+    <div class = "container-fluid-fluid bg-info reserch">
       <h2 id = "reserch">研究発表</h2>
     </div>
 
-    <div class = "active">
+    <div class = "container-fluid bg-info active">
       <h2 id = "active">活動</h2>
     </div>
 
-    <div class = "skills">
+    <div class = "container-fluid bg-info skills">
       <h2 id = "skills">スキル</h2>
         <ul>
           <li>Python3</li>
           <li>C/C++</li>
-          <li>SQL</li>
-          <li>HTML/CSS</li>
+          <li>JavaScript</li>
         </ul>
     </div>
 
-    <div class = "environment">
+    <div class = "container-fluid bg-info environment">
       <h2>開発環境</h2>
         <ul>
           <li>MacOS</li>
@@ -78,14 +86,14 @@
         </ul>
     </div>
 
-    <div class = "links">
+    <div class = "container-fluid bg-info links">
       <h2>リンク</h2>
         <li><a href = "https://www.tmu.ac.jp">首都大東京</a></li>
         <li><a href = "http://www.sd.tmu.ac.jp">システムデザイン学部・研究科</a></li>
         <li><a href = "http://krifiss3.sd.tmu.ac.jp/iskwHP/">石川研究室</a></li>
     </div>
 
-    <div class = "design">
+    <div class = "container-fluid bg-info design">
       <h2>デザイン参考</h2>
       <li><a href="https://saruwakakun.com/html-css/reference/css-sample#section4">コピペで使えるCSSデザインサンプル集</a></li>
     </div>
