@@ -10,3 +10,7 @@ margin-bottom: 30px;
 li {
 margin-bottom: 10px;
 }
+
+.now_status {
+  font-weight: 600
+}
