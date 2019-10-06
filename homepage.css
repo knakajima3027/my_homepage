@@ -8,14 +8,9 @@ margin-bottom: 30px;
 }
 
 li {
-margin-bottom: 10px;
+margin-bottom: 12px;
 }
 
 .now_status {
   font-weight: 600
-}
-
-img.kusa {
-  width: 105%;
-  height: 105%;
 }
