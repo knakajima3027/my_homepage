@@ -7,10 +7,15 @@ h3 {
 margin-bottom: 30px;
 }
 
-li {
+header li {
+  font-size: 20px;
+  padding: 10px;
+}
+
+.main li {
 margin-bottom: 12px;
 }
 
-.now_status {
-  font-weight: 600
+.hidden {
+  display:none;
 }
